@@ -1,0 +1,75 @@
+# ===========================
+# Node.js
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ===========================
+# TypeScript
+# ===========================
+*.tsbuildinfo
+dist/
+build/
+out/
+
+# ===========================
+# React / Vite
+# ===========================
+.vite/
+*.local
+
+# ===========================
+# Environment Files
+# ===========================
+.env
+.env.*
+!.env.example
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ===========================
+# Docker
+# ===========================
+docker-compose.override.yml
+.docker/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# Coverage & Testing
+# ===========================
+coverage/
+.nyc_output/
+
+# ===========================
+# Prisma
+# ===========================
+prisma/*.db
+prisma/*.db-journal
+
+# ===========================
+# Misc
+# ===========================
+*.swp
+*.swo
+*~
